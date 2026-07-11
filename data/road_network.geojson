@@ -1,0 +1,5259 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0709,
+          36.80026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07081,
+          36.80023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07087,
+          36.80015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07098,
+          36.80005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07112,
+          36.79996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0006"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07129,
+          36.79983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07171,
+          36.79956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07186,
+          36.79941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0009"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07184,
+          36.79931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0010"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07185,
+          36.7982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07185,
+          36.79812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07184,
+          36.79799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07195,
+          36.79792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07355,
+          36.79794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07462,
+          36.79796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07498,
+          36.79796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07531,
+          36.79797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0018"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07638,
+          36.79799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0019"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07799,
+          36.79802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0020"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07854,
+          36.79773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0021"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0786,
+          36.7977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0022"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07893,
+          36.79761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0023"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07909,
+          36.79759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07927,
+          36.7976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0796,
+          36.79765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07991,
+          36.79768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0027"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08017,
+          36.7977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0028"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08042,
+          36.79769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0029"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08073,
+          36.79767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0030"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08143,
+          36.79756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0031"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08173,
+          36.79752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0032"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08161,
+          36.79754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0033"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08185,
+          36.79751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0034"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08197,
+          36.7975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0035"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08247,
+          36.79749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0036"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08406,
+          36.79747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0037"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08571,
+          36.79744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0038"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08581,
+          36.79744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0039"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08592,
+          36.79736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0040"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08607,
+          36.79727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0041"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08614,
+          36.79712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0042"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08609,
+          36.79694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0043"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08595,
+          36.79669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0044"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08584,
+          36.79602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0045"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08577,
+          36.7957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0046"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08578,
+          36.79556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0047"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08571,
+          36.79544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0048"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08561,
+          36.79526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0049"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08554,
+          36.79506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0050"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08557,
+          36.79484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0051"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08557,
+          36.7948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0052"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08447,
+          36.79422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0053"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08379,
+          36.79381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0054"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08267,
+          36.79322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0055"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0823,
+          36.79302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0056"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08237,
+          36.79288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0057"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08247,
+          36.79261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0058"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08245,
+          36.79254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0059"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08249,
+          36.79232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0060"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0825,
+          36.79221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0061"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0825,
+          36.79203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0062"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08239,
+          36.79169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0063"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08227,
+          36.79144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0064"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08212,
+          36.79112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.082,
+          36.7909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0066"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08199,
+          36.79087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0067"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08186,
+          36.79062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0068"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08185,
+          36.79059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0069"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08183,
+          36.79035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0070"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08185,
+          36.79008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0071"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08191,
+          36.78986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0072"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08199,
+          36.78967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0073"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08214,
+          36.7894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0074"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08245,
+          36.78883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0075"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08251,
+          36.78869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0076"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08259,
+          36.78862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0077"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08281,
+          36.78813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0078"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08286,
+          36.78802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0079"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08361,
+          36.78828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0080"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08489,
+          36.78877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0081"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08497,
+          36.78879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0082"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08643,
+          36.78929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0083"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08685,
+          36.78942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0084"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08717,
+          36.7895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0085"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08752,
+          36.78958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0086"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08817,
+          36.78971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0087"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08838,
+          36.78974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0088"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09057,
+          36.79008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0089"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09324,
+          36.79055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0090"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09365,
+          36.79066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0091"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09396,
+          36.79077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0092"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09433,
+          36.79096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0093"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09467,
+          36.79119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0094"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09501,
+          36.7915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0095"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09535,
+          36.79188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0096"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09619,
+          36.79285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0097"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09704,
+          36.7938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0098"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09763,
+          36.7944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0099"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09819,
+          36.79499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0100"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0985,
+          36.79528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0101"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09879,
+          36.79547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0102"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09916,
+          36.79568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0103"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09959,
+          36.79585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0104"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1002,
+          36.79605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0105"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10076,
+          36.79615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0106"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10089,
+          36.79558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0107"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10093,
+          36.79541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0108"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10099,
+          36.79514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0109"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10166,
+          36.79266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0110"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10175,
+          36.79252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0111"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1018,
+          36.79244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0112"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10185,
+          36.79234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0113"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1019,
+          36.79218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0114"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10192,
+          36.79215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0115"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10196,
+          36.79214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0116"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10204,
+          36.79213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0117"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10214,
+          36.79223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0118"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10223,
+          36.79232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0119"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10233,
+          36.79239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0120"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10246,
+          36.79243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0121"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10278,
+          36.79249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0122"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10283,
+          36.7925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0123"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10317,
+          36.79256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0124"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10336,
+          36.79259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0125"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10353,
+          36.79264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0126"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10367,
+          36.79271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0127"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10373,
+          36.79277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0128"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10378,
+          36.79296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0129"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10386,
+          36.79321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0130"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10386,
+          36.79329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0131"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10382,
+          36.79358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "node_id": "N0132"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10366,
+          36.79422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0001",
+        "u": "N0001",
+        "v": "N0002",
+        "length_m": 8.68,
+        "bearing": 247.4,
+        "source_file": "경로.geojson",
+        "seq": 1,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.0709,
+            36.80026
+          ],
+          [
+            127.07081,
+            36.80023
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0002",
+        "u": "N0002",
+        "v": "N0003",
+        "length_m": 10.376,
+        "bearing": 149.01,
+        "source_file": "경로.geojson",
+        "seq": 2,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.07081,
+            36.80023
+          ],
+          [
+            127.07087,
+            36.80015
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0003",
+        "u": "N0003",
+        "v": "N0004",
+        "length_m": 14.818,
+        "bearing": 138.63,
+        "source_file": "경로.geojson",
+        "seq": 3,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.07087,
+            36.80015
+          ],
+          [
+            127.07098,
+            36.80005
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0004",
+        "u": "N0004",
+        "v": "N0005",
+        "length_m": 15.985,
+        "bearing": 128.76,
+        "source_file": "경로.geojson",
+        "seq": 4,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.07098,
+            36.80005
+          ],
+          [
+            127.07112,
+            36.79996
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0005",
+        "u": "N0005",
+        "v": "N0006",
+        "length_m": 20.93,
+        "bearing": 133.68,
+        "source_file": "경로.geojson",
+        "seq": 5,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.07112,
+            36.79996
+          ],
+          [
+            127.07129,
+            36.79983
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0006",
+        "u": "N0006",
+        "v": "N0007",
+        "length_m": 47.956,
+        "bearing": 128.76,
+        "source_file": "경로.geojson",
+        "seq": 6,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.07129,
+            36.79983
+          ],
+          [
+            127.07171,
+            36.79956
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0007",
+        "u": "N0007",
+        "v": "N0008",
+        "length_m": 21.368,
+        "bearing": 141.31,
+        "source_file": "경로.geojson",
+        "seq": 7,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.07171,
+            36.79956
+          ],
+          [
+            127.07186,
+            36.79941
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0008",
+        "u": "N0008",
+        "v": "N0009",
+        "length_m": 11.261,
+        "bearing": 189.1,
+        "source_file": "경로.geojson",
+        "seq": 8,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.07186,
+            36.79941
+          ],
+          [
+            127.07184,
+            36.79931
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0009",
+        "u": "N0009",
+        "v": "N0010",
+        "length_m": 123.43,
+        "bearing": 179.59,
+        "source_file": "경로.geojson",
+        "seq": 9,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.07184,
+            36.79931
+          ],
+          [
+            127.07185,
+            36.7982
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0010",
+        "u": "N0010",
+        "v": "N0011",
+        "length_m": 8.896,
+        "bearing": 180.0,
+        "source_file": "경로.geojson",
+        "seq": 10,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.07185,
+            36.7982
+          ],
+          [
+            127.07185,
+            36.79812
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0011",
+        "u": "N0011",
+        "v": "N0012",
+        "length_m": 14.483,
+        "bearing": 183.52,
+        "source_file": "경로.geojson",
+        "seq": 11,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.07185,
+            36.79812
+          ],
+          [
+            127.07184,
+            36.79799
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0012",
+        "u": "N0012",
+        "v": "N0013",
+        "length_m": 12.511,
+        "bearing": 128.47,
+        "source_file": "경로.geojson",
+        "seq": 12,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.07184,
+            36.79799
+          ],
+          [
+            127.07195,
+            36.79792
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0013",
+        "u": "N0013",
+        "v": "N0014",
+        "length_m": 142.481,
+        "bearing": 89.11,
+        "source_file": "경로.geojson",
+        "seq": 13,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.07195,
+            36.79792
+          ],
+          [
+            127.07355,
+            36.79794
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0014",
+        "u": "N0014",
+        "v": "N0015",
+        "length_m": 95.298,
+        "bearing": 88.66,
+        "source_file": "경로.geojson",
+        "seq": 14,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.07355,
+            36.79794
+          ],
+          [
+            127.07462,
+            36.79796
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0015",
+        "u": "N0015",
+        "v": "N0016",
+        "length_m": 32.054,
+        "bearing": 90.0,
+        "source_file": "경로.geojson",
+        "seq": 15,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.07462,
+            36.79796
+          ],
+          [
+            127.07498,
+            36.79796
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0016",
+        "u": "N0016",
+        "v": "N0017",
+        "length_m": 29.404,
+        "bearing": 87.83,
+        "source_file": "경로.geojson",
+        "seq": 16,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.07498,
+            36.79796
+          ],
+          [
+            127.07531,
+            36.79797
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0017",
+        "u": "N0017",
+        "v": "N0018",
+        "length_m": 95.298,
+        "bearing": 88.66,
+        "source_file": "경로.geojson",
+        "seq": 17,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.07531,
+            36.79797
+          ],
+          [
+            127.07638,
+            36.79799
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0018",
+        "u": "N0018",
+        "v": "N0019",
+        "length_m": 143.393,
+        "bearing": 88.67,
+        "source_file": "경로.geojson",
+        "seq": 18,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.07638,
+            36.79799
+          ],
+          [
+            127.07799,
+            36.79802
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0019",
+        "u": "N0019",
+        "v": "N0020",
+        "length_m": 58.635,
+        "bearing": 123.36,
+        "source_file": "경로.geojson",
+        "seq": 19,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.07799,
+            36.79802
+          ],
+          [
+            127.07854,
+            36.79773
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0020",
+        "u": "N0020",
+        "v": "N0021",
+        "length_m": 6.298,
+        "bearing": 121.98,
+        "source_file": "경로.geojson",
+        "seq": 20,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.07854,
+            36.79773
+          ],
+          [
+            127.0786,
+            36.7977
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0021",
+        "u": "N0021",
+        "v": "N0022",
+        "length_m": 31.041,
+        "bearing": 108.81,
+        "source_file": "경로.geojson",
+        "seq": 21,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.0786,
+            36.7977
+          ],
+          [
+            127.07893,
+            36.79761
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0022",
+        "u": "N0022",
+        "v": "N0023",
+        "length_m": 14.419,
+        "bearing": 98.87,
+        "source_file": "경로.geojson",
+        "seq": 22,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.07893,
+            36.79761
+          ],
+          [
+            127.07909,
+            36.79759
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0023",
+        "u": "N0023",
+        "v": "N0024",
+        "length_m": 16.066,
+        "bearing": 86.03,
+        "source_file": "경로.geojson",
+        "seq": 23,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.07909,
+            36.79759
+          ],
+          [
+            127.07927,
+            36.7976
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0024",
+        "u": "N0024",
+        "v": "N0025",
+        "length_m": 29.905,
+        "bearing": 79.29,
+        "source_file": "경로.geojson",
+        "seq": 24,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.07927,
+            36.7976
+          ],
+          [
+            127.0796,
+            36.79765
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0025",
+        "u": "N0025",
+        "v": "N0026",
+        "length_m": 27.803,
+        "bearing": 83.11,
+        "source_file": "경로.geojson",
+        "seq": 25,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.0796,
+            36.79765
+          ],
+          [
+            127.07991,
+            36.79768
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0026",
+        "u": "N0026",
+        "v": "N0027",
+        "length_m": 23.257,
+        "bearing": 84.51,
+        "source_file": "경로.geojson",
+        "seq": 26,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.07991,
+            36.79768
+          ],
+          [
+            127.08017,
+            36.7977
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0027",
+        "u": "N0027",
+        "v": "N0028",
+        "length_m": 22.288,
+        "bearing": 92.86,
+        "source_file": "경로.geojson",
+        "seq": 27,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08017,
+            36.7977
+          ],
+          [
+            127.08042,
+            36.79769
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0028",
+        "u": "N0028",
+        "v": "N0029",
+        "length_m": 27.692,
+        "bearing": 94.61,
+        "source_file": "경로.geojson",
+        "seq": 28,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08042,
+            36.79769
+          ],
+          [
+            127.08073,
+            36.79767
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0029",
+        "u": "N0029",
+        "v": "N0030",
+        "length_m": 63.517,
+        "bearing": 101.1,
+        "source_file": "경로.geojson",
+        "seq": 29,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08073,
+            36.79767
+          ],
+          [
+            127.08143,
+            36.79756
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0030",
+        "u": "N0030",
+        "v": "N0031",
+        "length_m": 27.08,
+        "bearing": 99.45,
+        "source_file": "경로.geojson",
+        "seq": 30,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08143,
+            36.79756
+          ],
+          [
+            127.08173,
+            36.79752
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0031",
+        "u": "N0031",
+        "v": "N0032",
+        "length_m": 10.914,
+        "bearing": 281.76,
+        "source_file": "",
+        "seq": 31,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08173,
+            36.79752
+          ],
+          [
+            127.08161,
+            36.79754
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0032",
+        "u": "N0032",
+        "v": "N0033",
+        "length_m": 21.628,
+        "bearing": 98.87,
+        "source_file": "경로 (1).geojson",
+        "seq": 32,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08161,
+            36.79754
+          ],
+          [
+            127.08185,
+            36.79751
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0033",
+        "u": "N0033",
+        "v": "N0034",
+        "length_m": 10.743,
+        "bearing": 95.94,
+        "source_file": "경로 (1).geojson",
+        "seq": 33,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08185,
+            36.79751
+          ],
+          [
+            127.08197,
+            36.7975
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0034",
+        "u": "N0034",
+        "v": "N0035",
+        "length_m": 44.534,
+        "bearing": 91.43,
+        "source_file": "경로 (1).geojson",
+        "seq": 34,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08197,
+            36.7975
+          ],
+          [
+            127.08247,
+            36.79749
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0035",
+        "u": "N0035",
+        "v": "N0036",
+        "length_m": 141.591,
+        "bearing": 90.9,
+        "source_file": "경로 (1).geojson",
+        "seq": 35,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08247,
+            36.79749
+          ],
+          [
+            127.08406,
+            36.79747
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0036",
+        "u": "N0036",
+        "v": "N0037",
+        "length_m": 146.954,
+        "bearing": 91.3,
+        "source_file": "경로 (1).geojson",
+        "seq": 36,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08406,
+            36.79747
+          ],
+          [
+            127.08571,
+            36.79744
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0037",
+        "u": "N0037",
+        "v": "N0038",
+        "length_m": 8.904,
+        "bearing": 90.0,
+        "source_file": "경로 (1).geojson",
+        "seq": 37,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08571,
+            36.79744
+          ],
+          [
+            127.08581,
+            36.79744
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0038",
+        "u": "N0038",
+        "v": "N0039",
+        "length_m": 13.231,
+        "bearing": 132.25,
+        "source_file": "경로 (1).geojson",
+        "seq": 38,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08581,
+            36.79744
+          ],
+          [
+            127.08592,
+            36.79736
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0039",
+        "u": "N0039",
+        "v": "N0040",
+        "length_m": 16.689,
+        "bearing": 126.84,
+        "source_file": "경로 (1).geojson",
+        "seq": 39,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08592,
+            36.79736
+          ],
+          [
+            127.08607,
+            36.79727
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0040",
+        "u": "N0040",
+        "v": "N0041",
+        "length_m": 17.806,
+        "bearing": 159.51,
+        "source_file": "경로 (1).geojson",
+        "seq": 40,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08607,
+            36.79727
+          ],
+          [
+            127.08614,
+            36.79712
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0041",
+        "u": "N0041",
+        "v": "N0042",
+        "length_m": 20.504,
+        "bearing": 192.54,
+        "source_file": "경로 (1).geojson",
+        "seq": 41,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08614,
+            36.79712
+          ],
+          [
+            127.08609,
+            36.79694
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0042",
+        "u": "N0042",
+        "v": "N0043",
+        "length_m": 30.466,
+        "bearing": 204.15,
+        "source_file": "경로 (1).geojson",
+        "seq": 42,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08609,
+            36.79694
+          ],
+          [
+            127.08595,
+            36.79669
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0043",
+        "u": "N0043",
+        "v": "N0044",
+        "length_m": 75.142,
+        "bearing": 187.49,
+        "source_file": "경로 (1).geojson",
+        "seq": 43,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08595,
+            36.79669
+          ],
+          [
+            127.08584,
+            36.79602
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0044",
+        "u": "N0044",
+        "v": "N0045",
+        "length_m": 36.124,
+        "bearing": 189.94,
+        "source_file": "경로 (1).geojson",
+        "seq": 44,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08584,
+            36.79602
+          ],
+          [
+            127.08577,
+            36.7957
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0045",
+        "u": "N0045",
+        "v": "N0046",
+        "length_m": 15.593,
+        "bearing": 176.73,
+        "source_file": "경로 (1).geojson",
+        "seq": 45,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08577,
+            36.7957
+          ],
+          [
+            127.08578,
+            36.79556
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0046",
+        "u": "N0046",
+        "v": "N0047",
+        "length_m": 14.727,
+        "bearing": 205.04,
+        "source_file": "경로 (1).geojson",
+        "seq": 46,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08578,
+            36.79556
+          ],
+          [
+            127.08571,
+            36.79544
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0047",
+        "u": "N0047",
+        "v": "N0048",
+        "length_m": 21.906,
+        "bearing": 203.98,
+        "source_file": "경로 (1).geojson",
+        "seq": 47,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08571,
+            36.79544
+          ],
+          [
+            127.08561,
+            36.79526
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0048",
+        "u": "N0048",
+        "v": "N0049",
+        "length_m": 23.096,
+        "bearing": 195.66,
+        "source_file": "경로 (1).geojson",
+        "seq": 48,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08561,
+            36.79526
+          ],
+          [
+            127.08554,
+            36.79506
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0049",
+        "u": "N0049",
+        "v": "N0050",
+        "length_m": 24.608,
+        "bearing": 173.77,
+        "source_file": "경로 (1).geojson",
+        "seq": 49,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08554,
+            36.79506
+          ],
+          [
+            127.08557,
+            36.79484
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0050",
+        "u": "N0050",
+        "v": "N0051",
+        "length_m": 4.448,
+        "bearing": 180.0,
+        "source_file": "경로 (1).geojson",
+        "seq": 50,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08557,
+            36.79484
+          ],
+          [
+            127.08557,
+            36.7948
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0051",
+        "u": "N0051",
+        "v": "N0052",
+        "length_m": 117.274,
+        "bearing": 236.64,
+        "source_file": "경로 (1).geojson",
+        "seq": 51,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08557,
+            36.7948
+          ],
+          [
+            127.08447,
+            36.79422
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0052",
+        "u": "N0052",
+        "v": "N0053",
+        "length_m": 75.794,
+        "bearing": 233.02,
+        "source_file": "경로 (1).geojson",
+        "seq": 52,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08447,
+            36.79422
+          ],
+          [
+            127.08379,
+            36.79381
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0053",
+        "u": "N0053",
+        "v": "N0054",
+        "length_m": 119.374,
+        "bearing": 236.66,
+        "source_file": "경로 (1).geojson",
+        "seq": 53,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08379,
+            36.79381
+          ],
+          [
+            127.08267,
+            36.79322
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0054",
+        "u": "N0054",
+        "v": "N0055",
+        "length_m": 39.75,
+        "bearing": 235.98,
+        "source_file": "경로 (1).geojson",
+        "seq": 54,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08267,
+            36.79322
+          ],
+          [
+            127.0823,
+            36.79302
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0055",
+        "u": "N0055",
+        "v": "N0056",
+        "length_m": 16.769,
+        "bearing": 158.18,
+        "source_file": "경로 (1).geojson",
+        "seq": 55,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.0823,
+            36.79302
+          ],
+          [
+            127.08237,
+            36.79288
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0056",
+        "u": "N0056",
+        "v": "N0057",
+        "length_m": 31.315,
+        "bearing": 163.48,
+        "source_file": "경로 (1).geojson",
+        "seq": 56,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08237,
+            36.79288
+          ],
+          [
+            127.08247,
+            36.79261
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0057",
+        "u": "N0057",
+        "v": "N0058",
+        "length_m": 7.985,
+        "bearing": 192.89,
+        "source_file": "경로 (1).geojson",
+        "seq": 57,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08247,
+            36.79261
+          ],
+          [
+            127.08245,
+            36.79254
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0058",
+        "u": "N0058",
+        "v": "N0059",
+        "length_m": 24.721,
+        "bearing": 171.72,
+        "source_file": "경로 (1).geojson",
+        "seq": 58,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08245,
+            36.79254
+          ],
+          [
+            127.08249,
+            36.79232
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0059",
+        "u": "N0059",
+        "v": "N0060",
+        "length_m": 12.264,
+        "bearing": 175.84,
+        "source_file": "경로 (1).geojson",
+        "seq": 59,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08249,
+            36.79232
+          ],
+          [
+            127.0825,
+            36.79221
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0060",
+        "u": "N0060",
+        "v": "N0061",
+        "length_m": 20.015,
+        "bearing": 180.0,
+        "source_file": "경로 (1).geojson",
+        "seq": 60,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.0825,
+            36.79221
+          ],
+          [
+            127.0825,
+            36.79203
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0061",
+        "u": "N0061",
+        "v": "N0062",
+        "length_m": 39.055,
+        "bearing": 194.53,
+        "source_file": "경로 (1).geojson",
+        "seq": 61,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.0825,
+            36.79203
+          ],
+          [
+            127.08239,
+            36.79169
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0062",
+        "u": "N0062",
+        "v": "N0063",
+        "length_m": 29.782,
+        "bearing": 201.03,
+        "source_file": "경로 (1).geojson",
+        "seq": 62,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08239,
+            36.79169
+          ],
+          [
+            127.08227,
+            36.79144
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0063",
+        "u": "N0063",
+        "v": "N0064",
+        "length_m": 38.007,
+        "bearing": 200.58,
+        "source_file": "경로 (1).geojson",
+        "seq": 63,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08227,
+            36.79144
+          ],
+          [
+            127.08212,
+            36.79112
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0064",
+        "u": "N0064",
+        "v": "N0065",
+        "length_m": 26.695,
+        "bearing": 203.6,
+        "source_file": "경로 (1).geojson",
+        "seq": 64,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08212,
+            36.79112
+          ],
+          [
+            127.082,
+            36.7909
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0065",
+        "u": "N0065",
+        "v": "N0066",
+        "length_m": 3.453,
+        "bearing": 194.95,
+        "source_file": "경로 (1).geojson",
+        "seq": 65,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.082,
+            36.7909
+          ],
+          [
+            127.08199,
+            36.79087
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0066",
+        "u": "N0066",
+        "v": "N0067",
+        "length_m": 30.113,
+        "bearing": 202.61,
+        "source_file": "경로 (1).geojson",
+        "seq": 66,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08199,
+            36.79087
+          ],
+          [
+            127.08186,
+            36.79062
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0067",
+        "u": "N0067",
+        "v": "N0068",
+        "length_m": 3.453,
+        "bearing": 194.95,
+        "source_file": "경로 (1).geojson",
+        "seq": 67,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08186,
+            36.79062
+          ],
+          [
+            127.08185,
+            36.79059
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0068",
+        "u": "N0068",
+        "v": "N0069",
+        "length_m": 26.746,
+        "bearing": 183.82,
+        "source_file": "경로 (1).geojson",
+        "seq": 68,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08185,
+            36.79059
+          ],
+          [
+            127.08183,
+            36.79035
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0069",
+        "u": "N0069",
+        "v": "N0070",
+        "length_m": 30.075,
+        "bearing": 176.61,
+        "source_file": "경로 (1).geojson",
+        "seq": 69,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08183,
+            36.79035
+          ],
+          [
+            127.08185,
+            36.79008
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0070",
+        "u": "N0070",
+        "v": "N0071",
+        "length_m": 25.04,
+        "bearing": 167.68,
+        "source_file": "경로 (1).geojson",
+        "seq": 70,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08185,
+            36.79008
+          ],
+          [
+            127.08191,
+            36.78986
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0071",
+        "u": "N0071",
+        "v": "N0072",
+        "length_m": 22.296,
+        "bearing": 161.37,
+        "source_file": "경로 (1).geojson",
+        "seq": 71,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08191,
+            36.78986
+          ],
+          [
+            127.08199,
+            36.78967
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0072",
+        "u": "N0072",
+        "v": "N0073",
+        "length_m": 32.86,
+        "bearing": 156.02,
+        "source_file": "경로 (1).geojson",
+        "seq": 72,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08199,
+            36.78967
+          ],
+          [
+            127.08214,
+            36.7894
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0073",
+        "u": "N0073",
+        "v": "N0074",
+        "length_m": 69.132,
+        "bearing": 156.46,
+        "source_file": "경로 (1).geojson",
+        "seq": 73,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08214,
+            36.7894
+          ],
+          [
+            127.08245,
+            36.78883
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0074",
+        "u": "N0074",
+        "v": "N0075",
+        "length_m": 16.459,
+        "bearing": 161.06,
+        "source_file": "경로 (1).geojson",
+        "seq": 74,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08245,
+            36.78883
+          ],
+          [
+            127.08251,
+            36.78869
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0075",
+        "u": "N0075",
+        "v": "N0076",
+        "length_m": 10.552,
+        "bearing": 137.53,
+        "source_file": "경로 (1).geojson",
+        "seq": 75,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08251,
+            36.78869
+          ],
+          [
+            127.08259,
+            36.78862
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0076",
+        "u": "N0076",
+        "v": "N0077",
+        "length_m": 57.901,
+        "bearing": 160.22,
+        "source_file": "경로 (1).geojson",
+        "seq": 76,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08259,
+            36.78862
+          ],
+          [
+            127.08281,
+            36.78813
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0077",
+        "u": "N0077",
+        "v": "N0078",
+        "length_m": 13.017,
+        "bearing": 160.0,
+        "source_file": "경로 (1).geojson",
+        "seq": 77,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08281,
+            36.78813
+          ],
+          [
+            127.08286,
+            36.78802
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0078",
+        "u": "N0078",
+        "v": "N0079",
+        "length_m": 72.777,
+        "bearing": 66.59,
+        "source_file": "경로 (1).geojson",
+        "seq": 78,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08286,
+            36.78802
+          ],
+          [
+            127.08361,
+            36.78828
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0079",
+        "u": "N0079",
+        "v": "N0080",
+        "length_m": 126.338,
+        "bearing": 64.45,
+        "source_file": "경로 (1).geojson",
+        "seq": 79,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08361,
+            36.78828
+          ],
+          [
+            127.08489,
+            36.78877
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0080",
+        "u": "N0080",
+        "v": "N0081",
+        "length_m": 7.463,
+        "bearing": 72.66,
+        "source_file": "경로 (1).geojson",
+        "seq": 80,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08489,
+            36.78877
+          ],
+          [
+            127.08497,
+            36.78879
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0081",
+        "u": "N0081",
+        "v": "N0082",
+        "length_m": 141.402,
+        "bearing": 66.85,
+        "source_file": "",
+        "seq": 81,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08497,
+            36.78879
+          ],
+          [
+            127.08643,
+            36.78929
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0082",
+        "u": "N0082",
+        "v": "N0083",
+        "length_m": 40.097,
+        "bearing": 68.87,
+        "source_file": "경로 (2).geojson",
+        "seq": 82,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08643,
+            36.78929
+          ],
+          [
+            127.08685,
+            36.78942
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0083",
+        "u": "N0083",
+        "v": "N0084",
+        "length_m": 29.852,
+        "bearing": 72.66,
+        "source_file": "경로 (2).geojson",
+        "seq": 83,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08685,
+            36.78942
+          ],
+          [
+            127.08717,
+            36.7895
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0084",
+        "u": "N0084",
+        "v": "N0085",
+        "length_m": 32.412,
+        "bearing": 74.07,
+        "source_file": "경로 (2).geojson",
+        "seq": 84,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08717,
+            36.7895
+          ],
+          [
+            127.08752,
+            36.78958
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0085",
+        "u": "N0085",
+        "v": "N0086",
+        "length_m": 59.66,
+        "bearing": 75.98,
+        "source_file": "경로 (2).geojson",
+        "seq": 85,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08752,
+            36.78958
+          ],
+          [
+            127.08817,
+            36.78971
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0086",
+        "u": "N0086",
+        "v": "N0087",
+        "length_m": 18.996,
+        "bearing": 79.89,
+        "source_file": "경로 (2).geojson",
+        "seq": 86,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08817,
+            36.78971
+          ],
+          [
+            127.08838,
+            36.78974
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0087",
+        "u": "N0087",
+        "v": "N0088",
+        "length_m": 198.648,
+        "bearing": 79.03,
+        "source_file": "경로 (2).geojson",
+        "seq": 87,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.08838,
+            36.78974
+          ],
+          [
+            127.09057,
+            36.79008
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0088",
+        "u": "N0088",
+        "v": "N0089",
+        "length_m": 243.436,
+        "bearing": 77.6,
+        "source_file": "경로 (2).geojson",
+        "seq": 88,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.09057,
+            36.79008
+          ],
+          [
+            127.09324,
+            36.79055
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0089",
+        "u": "N0089",
+        "v": "N0090",
+        "length_m": 38.504,
+        "bearing": 71.48,
+        "source_file": "경로 (2).geojson",
+        "seq": 89,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.09324,
+            36.79055
+          ],
+          [
+            127.09365,
+            36.79066
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0090",
+        "u": "N0090",
+        "v": "N0091",
+        "length_m": 30.193,
+        "bearing": 66.1,
+        "source_file": "경로 (2).geojson",
+        "seq": 90,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.09365,
+            36.79066
+          ],
+          [
+            127.09396,
+            36.79077
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0091",
+        "u": "N0091",
+        "v": "N0092",
+        "length_m": 39.14,
+        "bearing": 57.33,
+        "source_file": "경로 (2).geojson",
+        "seq": 91,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.09396,
+            36.79077
+          ],
+          [
+            127.09433,
+            36.79096
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0092",
+        "u": "N0092",
+        "v": "N0093",
+        "length_m": 39.632,
+        "bearing": 49.81,
+        "source_file": "경로 (2).geojson",
+        "seq": 92,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.09433,
+            36.79096
+          ],
+          [
+            127.09467,
+            36.79119
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0093",
+        "u": "N0093",
+        "v": "N0094",
+        "length_m": 45.879,
+        "bearing": 41.29,
+        "source_file": "경로 (2).geojson",
+        "seq": 93,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.09467,
+            36.79119
+          ],
+          [
+            127.09501,
+            36.7915
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0094",
+        "u": "N0094",
+        "v": "N0095",
+        "length_m": 51.981,
+        "bearing": 35.62,
+        "source_file": "경로 (2).geojson",
+        "seq": 94,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.09501,
+            36.7915
+          ],
+          [
+            127.09535,
+            36.79188
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0095",
+        "u": "N0095",
+        "v": "N0096",
+        "length_m": 131.257,
+        "bearing": 34.74,
+        "source_file": "경로 (2).geojson",
+        "seq": 95,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.09535,
+            36.79188
+          ],
+          [
+            127.09619,
+            36.79285
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0096",
+        "u": "N0096",
+        "v": "N0097",
+        "length_m": 129.952,
+        "bearing": 35.62,
+        "source_file": "경로 (2).geojson",
+        "seq": 96,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.09619,
+            36.79285
+          ],
+          [
+            127.09704,
+            36.7938
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0097",
+        "u": "N0097",
+        "v": "N0098",
+        "length_m": 84.919,
+        "bearing": 38.22,
+        "source_file": "경로 (2).geojson",
+        "seq": 97,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.09704,
+            36.7938
+          ],
+          [
+            127.09763,
+            36.7944
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0098",
+        "u": "N0098",
+        "v": "N0099",
+        "length_m": 82.404,
+        "bearing": 37.24,
+        "source_file": "경로 (2).geojson",
+        "seq": 98,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.09763,
+            36.7944
+          ],
+          [
+            127.09819,
+            36.79499
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0099",
+        "u": "N0099",
+        "v": "N0100",
+        "length_m": 42.447,
+        "bearing": 40.56,
+        "source_file": "경로 (2).geojson",
+        "seq": 99,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.09819,
+            36.79499
+          ],
+          [
+            127.0985,
+            36.79528
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0100",
+        "u": "N0100",
+        "v": "N0101",
+        "length_m": 33.364,
+        "bearing": 50.71,
+        "source_file": "경로 (2).geojson",
+        "seq": 100,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.0985,
+            36.79528
+          ],
+          [
+            127.09879,
+            36.79547
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0101",
+        "u": "N0101",
+        "v": "N0102",
+        "length_m": 40.382,
+        "bearing": 54.67,
+        "source_file": "경로 (2).geojson",
+        "seq": 101,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.09879,
+            36.79547
+          ],
+          [
+            127.09916,
+            36.79568
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0102",
+        "u": "N0102",
+        "v": "N0103",
+        "length_m": 42.7,
+        "bearing": 63.72,
+        "source_file": "경로 (2).geojson",
+        "seq": 102,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.09916,
+            36.79568
+          ],
+          [
+            127.09959,
+            36.79585
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0103",
+        "u": "N0103",
+        "v": "N0104",
+        "length_m": 58.692,
+        "bearing": 67.73,
+        "source_file": "경로 (2).geojson",
+        "seq": 103,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.09959,
+            36.79585
+          ],
+          [
+            127.1002,
+            36.79605
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0104",
+        "u": "N0104",
+        "v": "N0105",
+        "length_m": 51.088,
+        "bearing": 77.43,
+        "source_file": "경로 (2).geojson",
+        "seq": 104,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.1002,
+            36.79605
+          ],
+          [
+            127.10076,
+            36.79615
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0105",
+        "u": "N0105",
+        "v": "N0106",
+        "length_m": 64.429,
+        "bearing": 169.65,
+        "source_file": "경로 (2).geojson",
+        "seq": 105,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.10076,
+            36.79615
+          ],
+          [
+            127.10089,
+            36.79558
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0106",
+        "u": "N0106",
+        "v": "N0107",
+        "length_m": 19.236,
+        "bearing": 169.33,
+        "source_file": "경로 (2).geojson",
+        "seq": 106,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.10089,
+            36.79558
+          ],
+          [
+            127.10093,
+            36.79541
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0107",
+        "u": "N0107",
+        "v": "N0108",
+        "length_m": 30.494,
+        "bearing": 169.91,
+        "source_file": "경로 (2).geojson",
+        "seq": 107,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.10093,
+            36.79541
+          ],
+          [
+            127.10099,
+            36.79514
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0108",
+        "u": "N0108",
+        "v": "N0109",
+        "length_m": 282.143,
+        "bearing": 167.79,
+        "source_file": "경로 (2).geojson",
+        "seq": 108,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.10099,
+            36.79514
+          ],
+          [
+            127.10166,
+            36.79266
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0109",
+        "u": "N0109",
+        "v": "N0110",
+        "length_m": 17.509,
+        "bearing": 152.76,
+        "source_file": "경로 (2).geojson",
+        "seq": 109,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.10166,
+            36.79266
+          ],
+          [
+            127.10175,
+            36.79252
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0110",
+        "u": "N0110",
+        "v": "N0111",
+        "length_m": 9.948,
+        "bearing": 153.41,
+        "source_file": "경로 (2).geojson",
+        "seq": 110,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.10175,
+            36.79252
+          ],
+          [
+            127.1018,
+            36.79244
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0111",
+        "u": "N0111",
+        "v": "N0112",
+        "length_m": 11.978,
+        "bearing": 158.18,
+        "source_file": "경로 (2).geojson",
+        "seq": 111,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.1018,
+            36.79244
+          ],
+          [
+            127.10185,
+            36.79234
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0112",
+        "u": "N0112",
+        "v": "N0113",
+        "length_m": 18.34,
+        "bearing": 165.95,
+        "source_file": "경로 (2).geojson",
+        "seq": 112,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.10185,
+            36.79234
+          ],
+          [
+            127.1019,
+            36.79218
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0113",
+        "u": "N0113",
+        "v": "N0114",
+        "length_m": 3.781,
+        "bearing": 151.9,
+        "source_file": "경로 (2).geojson",
+        "seq": 113,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.1019,
+            36.79218
+          ],
+          [
+            127.10192,
+            36.79215
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0114",
+        "u": "N0114",
+        "v": "N0115",
+        "length_m": 3.731,
+        "bearing": 107.34,
+        "source_file": "경로 (2).geojson",
+        "seq": 114,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.10192,
+            36.79215
+          ],
+          [
+            127.10196,
+            36.79214
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0115",
+        "u": "N0115",
+        "v": "N0116",
+        "length_m": 7.21,
+        "bearing": 98.87,
+        "source_file": "경로 (2).geojson",
+        "seq": 115,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.10196,
+            36.79214
+          ],
+          [
+            127.10204,
+            36.79213
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0116",
+        "u": "N0116",
+        "v": "N0117",
+        "length_m": 14.246,
+        "bearing": 38.69,
+        "source_file": "경로 (2).geojson",
+        "seq": 116,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.10204,
+            36.79213
+          ],
+          [
+            127.10214,
+            36.79223
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0117",
+        "u": "N0117",
+        "v": "N0118",
+        "length_m": 12.821,
+        "bearing": 38.69,
+        "source_file": "경로 (2).geojson",
+        "seq": 117,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.10214,
+            36.79223
+          ],
+          [
+            127.10223,
+            36.79232
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0118",
+        "u": "N0118",
+        "v": "N0119",
+        "length_m": 11.827,
+        "bearing": 48.84,
+        "source_file": "경로 (2).geojson",
+        "seq": 118,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.10223,
+            36.79232
+          ],
+          [
+            127.10233,
+            36.79239
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0119",
+        "u": "N0119",
+        "v": "N0120",
+        "length_m": 12.401,
+        "bearing": 68.98,
+        "source_file": "경로 (2).geojson",
+        "seq": 119,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.10233,
+            36.79239
+          ],
+          [
+            127.10246,
+            36.79243
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0120",
+        "u": "N0120",
+        "v": "N0121",
+        "length_m": 29.265,
+        "bearing": 76.82,
+        "source_file": "경로 (2).geojson",
+        "seq": 120,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.10246,
+            36.79243
+          ],
+          [
+            127.10278,
+            36.79249
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0121",
+        "u": "N0121",
+        "v": "N0122",
+        "length_m": 4.589,
+        "bearing": 75.98,
+        "source_file": "경로 (2).geojson",
+        "seq": 121,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.10278,
+            36.79249
+          ],
+          [
+            127.10283,
+            36.7925
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0122",
+        "u": "N0122",
+        "v": "N0123",
+        "length_m": 31.002,
+        "bearing": 77.57,
+        "source_file": "경로 (2).geojson",
+        "seq": 122,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.10283,
+            36.7925
+          ],
+          [
+            127.10317,
+            36.79256
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0123",
+        "u": "N0123",
+        "v": "N0124",
+        "length_m": 17.244,
+        "bearing": 78.85,
+        "source_file": "경로 (2).geojson",
+        "seq": 123,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.10317,
+            36.79256
+          ],
+          [
+            127.10336,
+            36.79259
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0124",
+        "u": "N0124",
+        "v": "N0125",
+        "length_m": 16.126,
+        "bearing": 69.83,
+        "source_file": "경로 (2).geojson",
+        "seq": 124,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.10336,
+            36.79259
+          ],
+          [
+            127.10353,
+            36.79264
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0125",
+        "u": "N0125",
+        "v": "N0126",
+        "length_m": 14.697,
+        "bearing": 58.02,
+        "source_file": "경로 (2).geojson",
+        "seq": 125,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.10353,
+            36.79264
+          ],
+          [
+            127.10367,
+            36.79271
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0126",
+        "u": "N0126",
+        "v": "N0127",
+        "length_m": 8.547,
+        "bearing": 38.69,
+        "source_file": "경로 (2).geojson",
+        "seq": 126,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.10367,
+            36.79271
+          ],
+          [
+            127.10373,
+            36.79277
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0127",
+        "u": "N0127",
+        "v": "N0128",
+        "length_m": 21.591,
+        "bearing": 11.9,
+        "source_file": "경로 (2).geojson",
+        "seq": 127,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.10373,
+            36.79277
+          ],
+          [
+            127.10378,
+            36.79296
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0128",
+        "u": "N0128",
+        "v": "N0129",
+        "length_m": 28.697,
+        "bearing": 14.37,
+        "source_file": "경로 (2).geojson",
+        "seq": 128,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.10378,
+            36.79296
+          ],
+          [
+            127.10386,
+            36.79321
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0129",
+        "u": "N0129",
+        "v": "N0130",
+        "length_m": 8.896,
+        "bearing": 0.0,
+        "source_file": "경로 (2).geojson",
+        "seq": 129,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.10386,
+            36.79321
+          ],
+          [
+            127.10386,
+            36.79329
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0130",
+        "u": "N0130",
+        "v": "N0131",
+        "length_m": 32.443,
+        "bearing": 353.7,
+        "source_file": "경로 (2).geojson",
+        "seq": 130,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.10386,
+            36.79329
+          ],
+          [
+            127.10382,
+            36.79358
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "E0131",
+        "u": "N0131",
+        "v": "N0132",
+        "length_m": 72.577,
+        "bearing": 348.68,
+        "source_file": "경로 (2).geojson",
+        "seq": 131,
+        "direction": "forward"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.10382,
+            36.79358
+          ],
+          [
+            127.10366,
+            36.79422
+          ]
+        ]
+      }
+    }
+  ]
+}
