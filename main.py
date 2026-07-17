@@ -28,13 +28,11 @@ def health_check():
 
 @app.post("/mapmatch")
 def mapmatch(gps: GPSRequest):
-    return {
-        "status": "received",
-        "bus_id": gps.bus_id,
-        "route_id": gps.route_id,
-        "lat": gps.lat,
-        "lon": gps.lon,
-        "heading": gps.heading,
-        "timestamp": gps.timestamp
-    }
-
+    return service.process_gps(
+        bus_id=gps.bus_id,
+        route_id=gps.route_id,
+        lat=gps.lat,
+        lon=gps.lon,
+        heading=gps.heading,
+        timestamp=gps.timestamp,
+    )
