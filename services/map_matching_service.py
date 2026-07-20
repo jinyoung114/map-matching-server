@@ -22,10 +22,11 @@ from src.config import (
     MIN_MAD,
     NODES_CSV,
     SPEED_THRESH,
+    WINDOW_SIZE,
 )
 from src.preprocessing import GPSPoint, OnlinePreprocessor
 from src.road_network import RoadNetwork
-
+from src.viterbi import viterbi_window
 
 class MapMatchingService:
     def __init__(self):
@@ -49,7 +50,7 @@ class MapMatchingService:
             heading_jump_thresh=HEADING_JUMP_THRESH,
         )
 
-        self.clean_buffer = deque()
+        self.clean_buffer = deque() #viterbi_window에 전달할 GPS 목록
 
         print("OnlinePreprocessor initialized.")
 
@@ -79,7 +80,7 @@ class MapMatchingService:
             raw_heading=float(heading) if heading is not None else np.nan,
         )
         #전처리 조건에 걸린 GPS는 none이 반환됨. (이전 GPS와 너무 멀리 떨어져있거나, 속도, heading이 이상치인 경우)
-        #정상 GPS는 clean_point에 저장됨. clean_point는 GPSPoint 객체임.
+        # 정상 GPS는 CleanPoint 객체로 반환됨.
         clean_point = self.preprocessor.update(gps_point)
 
         if clean_point is None:
@@ -88,13 +89,50 @@ class MapMatchingService:
                 "message": "GPS point rejected by OnlinePreprocessor",
                 "bus_id": bus_id,
                 "route_id": route_id,
+                "clean_buffer_size": len(self.clean_buffer),
             }
 
+        # 전처리를 통과한 GPS를 Viterbi용 Sliding Window 버퍼에 저장
+        self.clean_buffer.append(clean_point)
+        
+        # 최소 GPS 개수 확인(GPS가 3개 미만이면 Viterbi를 실행하지 않고 대기)
+        if len(self.clean_buffer) < 3:
+            return {
+                "status": "warming",
+                "message": "Waiting for at least 3 GPS points",
+                "bus_id": bus_id,
+                "route_id": route_id,
+                "clean_buffer_size": len(self.clean_buffer),
+                "minimum_points_required": 3,
+            }
+
+        # 최근 최대 24개의 GPS사용
+        window = list(self.clean_buffer)[-WINDOW_SIZE:]
+
+        # Viterbi 알고리즘 실행
+        path = viterbi_window(
+            self.road_network,
+            window,
+            committed_last=None,
+        )
+
+        #후보 딕셔너리에서 노드 번호 추출
+        window_nodes = [int(point["Node_ID"]) for point in path]
+
+        #현재 GPS에 해당하는 마지막 매칭 노드
+        current_node = window_nodes[-1] if window_nodes else None
+
+        # #최근 WINDOW_SIZE 개의 GPS만 유지
+        # while len(self.clean_buffer) > WINDOW_SIZE:
+        #     self.clean_buffer.popleft()
+
         return {
-            "status": "accepted",
-            "message": "GPS point accepted by OnlinePreprocessor",
+            "status": "matched",
+            "message": "Viterbi map matching completed",
             "bus_id": bus_id,
             "route_id": route_id,
+            "current_node": current_node,
+            "window_nodes": window_nodes,
             "clean_point": {
                 "lat": clean_point.lat,
                 "lon": clean_point.lon,
@@ -113,6 +151,9 @@ class MapMatchingService:
                 ),
             },
             "preprocessor_buffer_size": len(self.preprocessor.buf),
+            "clean_buffer_size": len(self.clean_buffer),
+            "viterbi_window_size": len(window),
+            "configured_window_size": WINDOW_SIZE,
         }
 
     def health(self):
