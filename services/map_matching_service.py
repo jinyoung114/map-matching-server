@@ -131,6 +131,8 @@ class MapMatchingService:
         #현재 GPS에 해당하는 마지막 매칭 노드
         current_node = window_nodes[-1] if window_nodes else None
 
+        current_match = path[-1] if path else None
+
         # WINDOW_SIZE가 찼을 때 앞에서 COMMIT_SIZE개 확정
         if len(window) >= WINDOW_SIZE:
             for node in window_nodes[:COMMIT_SIZE]:
@@ -139,7 +141,21 @@ class MapMatchingService:
 
             for _ in range(COMMIT_SIZE):
                 if self.clean_buffer:
-                    self.clean_buffer.popleft()        
+                    self.clean_buffer.popleft()  
+
+        committed_match = None
+
+        if self.committed:
+            committed_node_id = int(self.committed[-1])
+
+            if committed_node_id in self.road_network.G.nodes:
+                committed_node_data = self.road_network.G.nodes[committed_node_id]
+
+                committed_match = {
+                    "node_id": committed_node_id,
+                    "lat": float(committed_node_data["lat"]),
+                    "lon": float(committed_node_data["lon"]),
+                }      
 
         print(f"[COMMITTED] {self.committed}")
 
@@ -154,11 +170,24 @@ class MapMatchingService:
             "route_id": route_id,
             "current_node": current_node,
             "window_nodes": window_nodes,
+
+            "matched": (
+                {
+                    "node_id": int(current_match["Node_ID"]),
+                    "lat": float(current_match["Latitude"]),
+                    "lon": float(current_match["Longitude"]),
+                    "distance_to_node_m": float(current_match["Distance"]),
+                }
+                if current_match is not None
+                else None
+            ),
+
             "committed_node": (
                 self.committed[-1]
                 if self.committed
                 else None
             ),
+            "committed": committed_match,
             "committed_nodes": self.committed.copy(),
             "committed_count": len(self.committed),
             "clean_point": {

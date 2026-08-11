@@ -70,21 +70,50 @@ class OnlinePreprocessor:
         self.prev = p
 
         if speed > self.speed_thresh:
+            print(
+                f"[REJECT][SPEED] "
+                f"speed={speed:.2f}m/s, "
+                f"threshold={self.speed_thresh:.2f}m/s, "
+                f"distance={dist:.2f}m, "
+                f"dt={dt:.2f}s"
+            )
             return None
 
         if len(self.buf) >= 1 and dist < self.heading_dist_thresh:
             prev_h = self.buf[-1].heading
-            if not np.isnan(prev_h) and not np.isnan(heading):
-                if abs(angle_diff(heading, prev_h)) > self.heading_jump_thresh:
-                    return None
 
+            if not np.isnan(prev_h) and not np.isnan(heading):
+                heading_diff = abs(angle_diff(heading, prev_h))
+
+                if heading_diff > self.heading_jump_thresh:
+                    print(
+                        f"[REJECT][HEADING] "
+                        f"heading={heading:.2f}, "
+                        f"previous_heading={prev_h:.2f}, "
+                        f"difference={heading_diff:.2f}, "
+                        f"threshold={self.heading_jump_thresh:.2f}, "
+                        f"distance={dist:.2f}m"
+                    )
+                    return None
+                
         recent = list(self.buf)[-self.mad_window + 1:]
         speeds = [c.speed for c in recent] + [speed]
         med = float(np.median(speeds))
         mad = float(np.median(np.abs(np.array(speeds) - med)))
         mad = max(mad, self.min_mad)
 
-        if abs(speed - med) > self.mad_mult * mad:
+        speed_deviation = abs(speed - med)
+        mad_threshold = self.mad_mult * mad
+
+        if speed_deviation > mad_threshold:
+            print(
+                f"[REJECT][MAD] "
+                f"speed={speed:.2f}m/s, "
+                f"median={med:.2f}m/s, "
+                f"mad={mad:.2f}, "
+                f"deviation={speed_deviation:.2f}, "
+                f"threshold={mad_threshold:.2f}"
+            )
             return None
 
         cp = CleanPoint(
