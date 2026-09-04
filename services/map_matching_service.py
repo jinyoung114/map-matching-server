@@ -30,13 +30,9 @@ from src.road_network import RoadNetwork
 from src.viterbi import viterbi_window
 
 class MapMatchingService:
-    def __init__(self):
-        print("Loading road network...")
+    def __init__(self, road_network):
 
-        self.road_network = RoadNetwork(
-            NODES_CSV,
-            EDGES_CSV,
-        )
+        self.road_network = road_network
 
         print("Road network loaded.")
 
