@@ -1,6 +1,6 @@
 from pathlib import Path
 import time
-
+import sys
 import pandas as pd
 import requests
 
@@ -9,16 +9,28 @@ SERVER_URL = "http://127.0.0.1:8000/mapmatch"
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+if len(sys.argv) < 2:
+    print("사용법: python scripts/replay_gps_csv.py bus_001")
+    sys.exit(1)
+
+BUS_ID = sys.argv[1]
+
+if BUS_ID not in ("bus_001", "bus_002"):
+    print("bus_id는 bus_001 또는 bus_002만 사용할 수 있습니다.")
+    sys.exit(1)
+
 CSV_PATH = (
     BASE_DIR
     / "data"
-    / "synthetic_shuttle_gps_with_outliers.csv"
+    / "아산역"
+    / f"multi_bus_test_{BUS_ID.split('_')[1]}.csv"
 )
 
 OUTPUT_PATH = (
     BASE_DIR
     / "data"
-    / "replay_mapmatch_results.csv"
+    / "아산역"
+    / f"replay_mapmatch_results_{BUS_ID}.csv"
 )
 
 # 실제 3초 재생이면 3.0
