@@ -67,7 +67,6 @@ class OnlinePreprocessor:
         speed = dist / dt
         heading = bearing_deg((self.prev.lat, self.prev.lon), (p.lat, p.lon)) if dist > 0 else np.nan
 
-        self.prev = p
 
         if speed > self.speed_thresh:
             print(
@@ -117,9 +116,18 @@ class OnlinePreprocessor:
             return None
 
         cp = CleanPoint(
-            lat=p.lat, lon=p.lon, t=p.t, dt=dt, dist=dist, speed=speed, heading=heading
+            lat=p.lat,
+            lon=p.lon,
+            t=p.t,
+            dt=dt,
+            dist=dist,
+            speed=speed,
+            heading=heading,
         )
+
+        self.prev = p
         self.buf.append(cp)
+
         return cp
 
 

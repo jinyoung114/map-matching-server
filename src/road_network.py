@@ -207,3 +207,165 @@ class RoadNetwork:
 
         raw = sorted(raw, key=lambda x: x["_cand_score"])[:k]
         return raw
+
+    def project_to_road(self, lat, lon, k=8):
+        """
+        GPS를 주변 도로 구간에 투영하고
+        가까운 도로 후보 k개를 반환한다.
+        """
+
+        candidates = []
+
+        # 위도·경도 차이를 미터 단위로 근사 변환
+        lat_scale = 110574.0
+        lon_scale = 111320.0 * math.cos(math.radians(lat))
+
+        for u, v in self.G.edges():
+
+            node_u = self.G.nodes[u]
+            node_v = self.G.nodes[v]
+
+            lat1 = node_u["lat"]
+            lon1 = node_u["lon"]
+            lat2 = node_v["lat"]
+            lon2 = node_v["lon"]
+
+            # 도로 시작점을 기준으로 좌표 변환
+            dx = (lon2 - lon1) * lon_scale
+            dy = (lat2 - lat1) * lat_scale
+
+            px = (lon - lon1) * lon_scale
+            py = (lat - lat1) * lat_scale
+
+            length_sq = dx * dx + dy * dy
+
+            if length_sq == 0:
+                continue
+
+            # 도로 구간 위에서 가장 가까운 위치 계산
+            t = (px * dx + py * dy) / length_sq
+            t = max(0.0, min(1.0, t))
+
+            projected_lon = lon1 + t * (lon2 - lon1)
+            projected_lat = lat1 + t * (lat2 - lat1)
+
+            # GPS와 투영 위치 사이 거리
+            distance = math.hypot(
+                (lon - projected_lon) * lon_scale,
+                (lat - projected_lat) * lat_scale
+            )
+
+            candidates.append({
+                "u": int(u),
+                "v": int(v),
+                "lat": float(projected_lat),
+                "lon": float(projected_lon),
+                "distance_m": float(distance),
+                "fraction": float(t),
+            })
+
+        candidates.sort(key=lambda c: c["distance_m"])
+
+        return candidates[:k]
+
+
+    def edge_candidates(self, p, k=8):
+        """
+        Generate directed edge candidates for one GPS point.
+        Existing node-based candidates() remains unchanged.
+        """
+
+        projections = self.project_to_road(
+            p.lat, p.lon, k=30
+        )
+
+        results = []
+
+        heading = getattr(p, "heading", None)
+        speed = getattr(p, "speed", None)
+
+        use_heading = (
+            heading is not None
+            and math.isfinite(float(heading))
+            and speed is not None
+            and math.isfinite(float(speed))
+            and float(speed) >= 2.0
+        )
+
+        for c in projections:
+            u = c["u"]
+            v = c["v"]
+
+            edge_length = float(self.G[u][v]["weight"])
+            fraction = c["fraction"]
+
+            road_heading = self.edge_heading(u, v)
+
+            if use_heading:
+                heading_diff = abs(
+                    angle_diff(road_heading, float(heading))
+                )
+                heading_bonus = max(
+                    0.1,
+                    math.exp(-heading_diff / 45.0)
+                )
+            else:
+                heading_bonus = 1.0
+
+            results.append({
+                "edge_u": u,
+                "edge_v": v,
+
+                "Latitude": c["lat"],
+                "Longitude": c["lon"],
+                "Distance": c["distance_m"],
+
+                "fraction": fraction,
+                "edge_length_m": edge_length,
+
+                "distance_from_u": edge_length * fraction,
+                "distance_to_v": edge_length * (1.0 - fraction),
+
+                "road_heading": road_heading,
+                "_head_bonus": heading_bonus,
+
+                "_cand_score": (
+                    c["distance_m"] / heading_bonus
+                ),
+            })
+
+        results.sort(
+            key=lambda x: x["_cand_score"]
+        )
+
+        return results[:k]
+
+    def edge_travel_distance(self, a, b):
+        """
+        Calculate forward road distance between two edge candidates.
+        """
+
+        u1 = int(a["edge_u"])
+        v1 = int(a["edge_v"])
+        u2 = int(b["edge_u"])
+        v2 = int(b["edge_v"])
+
+        start_offset = float(a["distance_from_u"])
+        end_offset = float(b["distance_from_u"])
+
+        # Same directed edge: forward movement
+        if u1 == u2 and v1 == v2:
+            if end_offset >= start_offset:
+                return end_offset - start_offset
+
+        # Finish first edge, follow graph, enter second edge
+        middle_distance = self.sp_len(v1, u2)
+
+        if middle_distance is None:
+            return None
+
+        return (
+            float(a["distance_to_v"])
+            + middle_distance
+            + end_offset
+        )
