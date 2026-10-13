@@ -19,23 +19,39 @@ if BUS_ID not in ("bus_001", "bus_002"):
     print("bus_id는 bus_001 또는 bus_002만 사용할 수 있습니다.")
     sys.exit(1)
 
-CSV_PATH = (
-    BASE_DIR
-    / "data"
-    / "아산역"
-    / f"multi_bus_test_{BUS_ID.split('_')[1]}.csv"
-)
+if BUS_ID == "bus_001":
+    CSV_PATH = (
+        BASE_DIR
+        / "data"
+        / "아산역"
+        / "multi_bus_test_001.csv"
+    )
 
-OUTPUT_PATH = (
-    BASE_DIR
-    / "data"
-    / "아산역"
-    / f"replay_mapmatch_results_{BUS_ID}.csv"
-)
+    OUTPUT_PATH = (
+        BASE_DIR
+        / "data"
+        / "아산역"
+        / "replay_mapmatch_results_bus_001.csv"
+    )
+
+elif BUS_ID == "bus_002":
+    CSV_PATH = (
+        BASE_DIR
+        / "data"
+        / "천안터미널역"
+        / "synthetic_cheonan_terminal_gps_fixed.csv"
+    )
+
+    OUTPUT_PATH = (
+        BASE_DIR
+        / "data"
+        / "천안터미널역"
+        / "replay_mapmatch_results_bus_002_fixed.csv"
+    )
 
 # 실제 3초 재생이면 3.0
 # 빠르게 테스트하려면 0.1 또는 0.0
-PLAYBACK_INTERVAL_SEC = 0.1
+PLAYBACK_INTERVAL_SEC = 0.0
 
 
 def safe_float(value):

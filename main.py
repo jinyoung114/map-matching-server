@@ -1,9 +1,9 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import Optional
-from src.road_network import RoadNetwork
-from src.config import NODES_CSV, EDGES_CSV
+from pathlib import Path
 
+from src.road_network import RoadNetwork
 from services.map_matching_service import MapMatchingService
 
 from services.firebase_service import (
@@ -22,7 +22,19 @@ services: dict[str, MapMatchingService] = {}
 
 # route_id별 RoadNetwork 관리
 road_networks: dict[str, RoadNetwork] = {}
+BASE_DIR = Path(__file__).resolve().parent
+DATA_DIR = BASE_DIR / "data"
 
+ROUTE_NETWORK_FILES = {
+    "route_001": {
+        "nodes": DATA_DIR / "아산역" / "road_nodes.csv",
+        "edges": DATA_DIR / "아산역" / "road_edges_bidirectional.csv",
+    },
+    "route_002": {
+        "nodes": DATA_DIR / "천안터미널역" / "road_nodes.csv",
+        "edges": DATA_DIR / "천안터미널역" / "road_edges_bidirectional.csv",
+    },
+}
 
 def get_road_network(route_id: str) -> RoadNetwork:
     """
@@ -30,13 +42,22 @@ def get_road_network(route_id: str) -> RoadNetwork:
     최초 요청 시 한 번만 로딩한다.
     """
 
-    if route_id not in road_networks:
-        print(f"[ROAD NETWORK CREATED] route_id={route_id}")
+    if route_id not in ROUTE_NETWORK_FILES:
+        raise ValueError(f"지원하지 않는 route_id입니다: {route_id}")
 
-        # 현재는 route_001용 네트워크 파일만 존재
+    if route_id not in road_networks:
+        network_files = ROUTE_NETWORK_FILES[route_id]
+
+        print(
+            f"[ROAD NETWORK CREATED] "
+            f"route_id={route_id}, "
+            f"nodes={network_files['nodes']}, "
+            f"edges={network_files['edges']}"
+        )
+
         road_networks[route_id] = RoadNetwork(
-            NODES_CSV,
-            EDGES_CSV,
+            network_files["nodes"],
+            network_files["edges"],
         )
 
     return road_networks[route_id]
