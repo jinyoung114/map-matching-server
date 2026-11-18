@@ -30,6 +30,52 @@ class CleanPoint:
     heading: float
 
 
+
+def is_isolated_gps_spike(
+    prev: GPSPoint,
+    middle: GPSPoint,
+    nxt: GPSPoint,
+    recent_speeds,
+    speed_margin=5.0,
+    bridge_margin=3.0,
+):
+    """
+    연속된 GPS 3개를 비교하여
+    가운데 GPS가 순간적으로 튄 이상치인지 판단한다.
+    """
+
+    if len(recent_speeds) < 5:
+        return False
+
+    if prev.t is None or middle.t is None or nxt.t is None:
+        return False
+
+    dt1 = (middle.t - prev.t).total_seconds()
+    dt2 = (nxt.t - middle.t).total_seconds()
+    dt_bridge = (nxt.t - prev.t).total_seconds()
+
+    if min(dt1, dt2, dt_bridge) <= 0:
+        return False
+
+    def distance(a, b):
+        return geodesic(
+            (a.lat, a.lon),
+            (b.lat, b.lon)
+        ).meters
+
+    speed_in = distance(prev, middle) / dt1
+    speed_out = distance(middle, nxt) / dt2
+    bridge_speed = distance(prev, nxt) / dt_bridge
+
+    baseline = float(np.median(recent_speeds))
+
+    return (
+        speed_in > baseline + speed_margin
+        and speed_out > baseline + speed_margin
+        and bridge_speed <= baseline + bridge_margin
+    )
+
+
 class OnlinePreprocessor:
     def __init__(
         self,
@@ -39,6 +85,7 @@ class OnlinePreprocessor:
         min_mad=1.0,
         heading_dist_thresh=2.0,
         heading_jump_thresh=145.0,
+
     ):
         self.speed_thresh = speed_thresh
         self.mad_window = mad_window
@@ -48,8 +95,11 @@ class OnlinePreprocessor:
         self.heading_jump_thresh = heading_jump_thresh
         self.buf = deque(maxlen=300)
         self.prev: Optional[GPSPoint] = None
+        self.last_spike_removed = False
 
     def update(self, p: GPSPoint):
+        self.last_spike_removed = False
+
         if self.prev is None:
             cp = CleanPoint(
                 lat=p.lat, lon=p.lon, t=p.t, dt=1.0, dist=0.0, speed=0.0, heading=np.nan
@@ -57,6 +107,43 @@ class OnlinePreprocessor:
             self.prev = p
             self.buf.append(cp)
             return cp
+
+        # Detect an isolated spike in the previous accepted GPS
+        if len(self.buf) >= 2:
+            prev_clean = self.buf[-2]
+
+            prev_point = GPSPoint(
+                lat=prev_clean.lat,
+                lon=prev_clean.lon,
+                t=prev_clean.t,
+            )
+
+            recent_speeds = [
+                c.speed
+                for c in list(self.buf)[-self.mad_window:-1]
+            ]
+
+            if is_isolated_gps_spike(
+                prev_point,
+                self.prev,
+                p,
+                recent_speeds,
+            ):
+                print(
+                    "[SPIKE] Previous GPS identified "
+                    "as an isolated outlier"
+                )
+
+                # Remove the previously accepted outlier
+                self.buf.pop()
+
+                # Restore the last valid GPS
+                self.prev = prev_point
+
+                # Notify MapMatchingService
+                self.last_spike_removed = True
+
+
 
         dt = 1.0
         if p.t is not None and self.prev.t is not None:
@@ -94,7 +181,7 @@ class OnlinePreprocessor:
                         f"distance={dist:.2f}m"
                     )
                     return None
-                
+
         recent = list(self.buf)[-self.mad_window + 1:]
         speeds = [c.speed for c in recent] + [speed]
         med = float(np.median(speeds))

@@ -75,7 +75,7 @@ def viterbi_window(rn, W, committed_last=None):
         path.insert(0, path[0]["psi"])
     return path
 
-def viterbi_window_edge(rn, W):
+def viterbi_window_edge(rn, W, committed_last=None):
     """
     Edge-based HMM + Viterbi using log probabilities.
 
@@ -99,13 +99,53 @@ def viterbi_window_edge(rn, W):
     # 2. Initialize first GPS candidates
     first = cand[0]
 
+    # Previous committed edge position
+    previous_edge = None
+
+    if committed_last is not None:
+        u = int(committed_last["edge_u"])
+        v = int(committed_last["edge_v"])
+        fraction = float(committed_last["fraction"])
+
+        edge_length = float(rn.G[u][v]["weight"])
+
+        previous_edge = {
+            "edge_u": u,
+            "edge_v": v,
+            "fraction": fraction,
+            "distance_from_u": edge_length * fraction,
+            "distance_to_v": edge_length * (1.0 - fraction),
+        }
+
     for c in first:
         emission = max(
             emit_prob(c["Distance"]) * c["_head_bonus"],
             1e-300
         )
 
-        c["log_delta"] = math.log(emission)
+        log_score = math.log(emission)
+
+        # Connect the previous committed position
+        # to the first candidate of this window.
+        # 이전 확정 위치에서 현재 윈도우 첫번째 후보까지의 전이 확률을 계산합니다.
+        # 그 확률을 viterbi의 초기 점수에 더합니다.
+        # 이전 위치와 연결되기 어려운 후보는 전이 확률이 낮아집니다.
+        if previous_edge is not None:
+            tp = trans_prob_edge(
+                rn,
+                previous_edge,
+                c,
+                (
+                    committed_last["lat"],
+                    committed_last["lon"],
+                ),
+                (W[0].lat, W[0].lon),
+                W[0].dt,
+            )
+
+            log_score += math.log(max(tp, 1e-300))
+
+        c["log_delta"] = log_score
         c["psi"] = None
 
     vit.append(first)

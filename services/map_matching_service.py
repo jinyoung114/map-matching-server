@@ -100,6 +100,17 @@ class MapMatchingService:
 
         clean_point = self.preprocessor.update(gps_point)
 
+        # Remove the previous GPS if it was identified as a spike
+        if self.preprocessor.last_spike_removed:
+            if self.clean_buffer:
+                self.clean_buffer.pop()
+
+            print(
+                f"[SPIKE][{bus_id}] "
+                "Removed previous GPS from Sliding Window"
+            )
+
+
         if clean_point is None:
             return {
                 "status": "skipped",
@@ -124,10 +135,18 @@ class MapMatchingService:
         # Sliding Window
         window = list(self.clean_buffer)[-WINDOW_SIZE:]
 
+        # Get the last committed road position
+        committed_last = (
+            self.committed_matches[-1]
+            if self.committed_matches
+            else None
+        )
+
         # Edge-based HMM + Viterbi
         path = viterbi_window_edge(
             self.road_network,
             window,
+            committed_last=committed_last,
         )
 
         # Legacy node IDs represent edge destination nodes
