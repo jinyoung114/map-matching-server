@@ -16,3 +16,6 @@ data/output/
 data/**/replay_mapmatch_results*.csv
 data/replay_mapmatch_visualization.html
 data/**/multi_bus_test_*.csv
+
+venv312/
+requirements_backup.txt

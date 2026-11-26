@@ -54,13 +54,14 @@ def update_bus_location(
     lon: float,
     current_node,
     timestamp: str,
+    eta: dict | None = None,
 ):
 
     initialize_firebase()
 
     ref = db.reference(f"busLocations/{bus_id}")
 
-    ref.set({
+    payload = {
         "bus_id": bus_id,
         "route_id": route_id,
         "lat": lat,
@@ -68,7 +69,10 @@ def update_bus_location(
         "current_node": current_node,
         "timestamp": timestamp,
         "trip_active": True,
-    })
+    }
+    if eta is not None:
+        payload["eta"] = eta
+    ref.set(payload)
 
     print(
         f"[FIREBASE] bus location updated "
@@ -109,3 +113,10 @@ def end_bus_trip(
         f"[FIREBASE] trip ended "
         f"bus_id={bus_id}"
     )
+
+def read_eta_catalog(route_id: str):
+    """Read only existing metadata; do not migrate routes or stops."""
+    initialize_firebase()
+    stop_ids = db.reference(f"routes/{route_id}/directions/outbound/stops").get()
+    stops = db.reference("stops").get()
+    return stop_ids, stops or {}

@@ -1,0 +1,2 @@
+edge_id,from,to,from_lat,from_lon,to_lat,to_lon,length_m,seq,direction
+E1,1,2,36,127,36,127.0333,3000,1,forward
