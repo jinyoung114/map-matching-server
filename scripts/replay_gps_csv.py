@@ -1,6 +1,6 @@
 from pathlib import Path
 import time
-
+import sys
 import pandas as pd
 import requests
 
@@ -9,17 +9,45 @@ SERVER_URL = "http://127.0.0.1:8000/mapmatch"
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-CSV_PATH = (
-    BASE_DIR
-    / "data"
-    / "synthetic_shuttle_gps_with_outliers.csv"
-)
+if len(sys.argv) < 2:
+    print("사용법: python scripts/replay_gps_csv.py bus_001")
+    sys.exit(1)
 
-OUTPUT_PATH = (
-    BASE_DIR
-    / "data"
-    / "replay_mapmatch_results.csv"
-)
+BUS_ID = sys.argv[1]
+
+if BUS_ID not in ("bus_001", "bus_002"):
+    print("bus_id는 bus_001 또는 bus_002만 사용할 수 있습니다.")
+    sys.exit(1)
+
+if BUS_ID == "bus_001":
+    CSV_PATH = (
+        BASE_DIR
+        / "data"
+        / "아산역"
+        / "multi_bus_test_001.csv"
+    )
+
+    OUTPUT_PATH = (
+        BASE_DIR
+        / "data"
+        / "아산역"
+        / "replay_mapmatch_results_bus_001.csv"
+    )
+
+elif BUS_ID == "bus_002":
+    CSV_PATH = (
+        BASE_DIR
+        / "data"
+        / "천안터미널역"
+        / "synthetic_cheonan_terminal_gps_fixed.csv"
+    )
+
+    OUTPUT_PATH = (
+        BASE_DIR
+        / "data"
+        / "천안터미널역"
+        / "replay_mapmatch_results_bus_002_continuity.csv"
+    )
 
 # 실제 3초 재생이면 3.0
 # 빠르게 테스트하려면 0.1 또는 0.0
@@ -40,6 +68,29 @@ def main():
     df = pd.read_csv(CSV_PATH)
 
     results = []
+
+    def save_progress():
+        if len(results) % 20 == 0:
+            progress_path = OUTPUT_PATH.with_name(
+                OUTPUT_PATH.stem + "_progress.csv"
+            )
+
+            progress_path.parent.mkdir(
+                parents=True,
+                exist_ok=True
+            )
+
+            pd.DataFrame(results).to_csv(
+                progress_path,
+                index=False,
+                encoding="utf-8-sig"
+            )
+
+            print(
+                f"[{BUS_ID}] Progress saved: "
+                f"{len(results)} GPS",
+                flush=True
+            )
 
     for _, row in df.iterrows():
         payload = {
@@ -63,8 +114,9 @@ def main():
 
         except requests.RequestException as exc:
             print(
-                f"[ERROR] SEQ={row['seq']} "
-                f"request failed: {exc}"
+                f"[ERROR][{BUS_ID}] SEQ={row['seq']} "
+                f"request failed: {exc}",
+                flush=True
             )
 
             results.append(
@@ -79,6 +131,9 @@ def main():
                     "message": str(exc),
                 }
             )
+            save_progress()
+
+            time.sleep(PLAYBACK_INTERVAL_SEC)
             continue
 
         matched = result.get("matched") or {}
@@ -131,12 +186,15 @@ def main():
 
         results.append(output_row)
 
+        save_progress()
+
         print(
-            f"SEQ={row['seq']} | "
+            f"[{BUS_ID}] SEQ={row['seq']} | "
             f"status={result.get('status')} | "
             f"current={result.get('current_node')} | "
             f"committed={result.get('committed_node')} | "
-            f"distance={matched.get('distance_to_node_m')}"
+            f"distance={matched.get('distance_to_node_m')}",
+            flush=True
         )
 
         time.sleep(PLAYBACK_INTERVAL_SEC)

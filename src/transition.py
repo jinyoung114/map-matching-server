@@ -79,3 +79,66 @@ def continuity_factor(rn, committed_last, cand_node_id):
     if rd <= 120:
         return 0.9
     return 0.78
+
+
+def trans_prob_edge(
+    rn,
+    a,
+    b,
+    g1,
+    g2,
+    dt,
+    curved=False,
+    complex_zone=False,
+):
+    """
+    Edge-based HMM transition probability.
+
+    a, b: edge candidate dictionaries
+    g1, g2: GPS coordinates (lat, lon)
+    dt: elapsed time in seconds
+    """
+    import math
+    from geopy.distance import geodesic
+
+    MIN_PROB = 1e-12
+
+    # 1. Road travel distance between projected positions
+    rd = rn.edge_travel_distance(a, b)
+
+    if rd is None or not math.isfinite(rd):
+        return MIN_PROB
+
+    # 2. Straight-line GPS displacement
+    gd = geodesic(g1, g2).meters
+
+    # 3. Reject unreasonable detours
+    ratio_limit = 4.8 if (curved or complex_zone) else 3.2
+    diff_limit = 65.0 if (curved or complex_zone) else 35.0
+
+    if gd > 5.0:
+        if rd / gd > ratio_limit and rd - gd > diff_limit:
+            return MIN_PROB
+    else:
+        stop_limit = 65.0 if (curved or complex_zone) else 40.0
+
+        if rd > stop_limit:
+            return MIN_PROB
+
+    # 4. Reject physically implausible travel speeds
+    if dt is not None and dt > 0:
+        road_speed = rd / dt
+
+        if road_speed > 45.0:
+            return MIN_PROB
+
+    # 5. Transition probability
+    beta = 60.0 if (curved or complex_zone) else 40.0
+
+    distance_difference = abs(rd - gd)
+
+    probability = math.exp(
+        -distance_difference / beta
+    )
+
+    return max(probability, MIN_PROB)
